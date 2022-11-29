@@ -1,0 +1,259 @@
+﻿From: =?utf-8?Q?MSN Staff?= <msn_welcome@msn.com>
+Subject: =?utf-8?Q?Welcome to MSN?=
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_002E_01C091F4.83B6B1D0";
+	type="text/html"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: text/html;
+	charset="utf-8"
+
+<html>
+<head>
+<title class="clsGreeting">Welcome to MSN</title>
+</head>
+<body>
+
+<style type="text/css">
+
+	body { background-color:#fcfaf4; color:black; font-family:verdana; font-size:70%; margin:0px; }
+	h1 { font-family:trebuchet ms; font-style:italic; font-size:30pt; color:#c3dcf4; margin:0px 0px -7px 0px; padding:0px; line-height:100%; }
+	h2 { font-size:110%; margin-top:2em; }
+	table { font-size:100%; }
+	p { line-height:150%; margin-top:-1em; }
+	ul { margin:5px 0px 10px 20px; }
+	li { margin-bottom:1em; }
+	a { color:#0066CC; text-decoration:none; }
+	a:hover { text-decoration:underline; }
+
+	table#tblBanner { background-color:white; width:100%; }
+	div#divBody { padding:34px 10px 20px 118px; width:639px; }
+	table#tblBox { width:450px; }
+	table#tblMore { margin-top:-2em; }
+	table#tblMore td img { margin-top:1em; }
+	div#divFooter { margin-top:3em; }
+	p#pTagLine { font-weight:bold; }
+
+</style>
+
+<table id="tblBanner" cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td height="10" width="111"></td>
+	<td width="29" height="10"></td>
+	<td height="10"></td>
+</tr>
+<tr>
+	<td colspan="2" height="60" width="140"><img height="60" width="140" border="" alt="" src="http://logo.msn.com/en-us/default/logo.gif"></td>
+	<td height="60"></td>
+</tr>
+<tr>
+	<td height="35" width="111"></td>
+	<td colspan="2" height="35"><h1 class="clsGreeting">Welcome to MSN</h1></td>
+</tr>
+<tr>
+	<td colspan="3" height="1" bgcolor="#006699"></td>
+</tr>
+<tr>
+	<td colspan="3" height="1" bgcolor="#99ccff"></td>
+</tr>
+</table>
+
+<div id="divBody">
+
+<p>Thank you for choosing the <span class="clsISP">MSN</span>&reg; network as your home on the Internet.  <span class="clsISP">MSN</span> Internet Access provides fast and reliable connections, friendly support all day, everyday, and exciting <span class="clsISP">MSN</span> Explorer software designed to help you get more from the Internet.</p>
+
+<h2>Here are a few features of <span class="clsISP">MSN</span> and your Internet Access service:</h2>
+
+<table id="tblBox" cellpadding="0" cellspacing="0">
+<tr>
+	<td width="14"><img height="14" width="14" alt="" src="cid:box_tl.gif"></td>
+	<td width="100%"><img height="14" width="100%" alt="" src="cid:box_t.gif"></td>
+	<td width="14"><img height="14" width="14" alt="" src="cid:box_tr.gif"></td>
+</tr>
+<tr>
+	<td width="14" height="100%"><img width="14" height="100%" alt="" src="cid:box_l.gif"></td>
+	<td id="tdContent" width="100%">
+		<ul>
+		<li>Easy family access - support for up to 9 users on your account, each with their own customized experience.</li>
+		<li>Communicate with instant messaging and <span class="clsISP">MSN</span> e-mail, the most popular Internet-based e-mail. Get on, get your e-mail, and free up that phone line with the new offline e-mail feature.</li>
+		<li>Manage your finances using award-winning online tools from <span class="clsISP">MSN</span>.</li>
+		<li>Convenient access to <span class="clsISP">MSN</span> eShop for comparison shopping.</li>
+		<li>Find and listen to music using your PC.</li>
+		<li>Your software is automatically updated when new features are available.</li>
+		</ul>
+	</td>
+	<td width="14" height="100%"><img width="14" height="100%" alt="" src="cid:box_r.gif"></td>
+</tr>
+<tr>
+	<td width="14"><img height="14" width="14" alt="" src="cid:box_bl.gif"></td>
+	<td width="100%"><img height="14" width="100%" alt="" src="cid:box_b.gif"></td>
+	<td width="14"><img height="14" width="14" alt="" src="cid:box_br.gif"></td>
+</tr>
+</table>
+
+<h2>Take the Tour</h2>
+
+<p>If you have not had a chance to do so already, check out the <span class="clsISP">MSN</span> tour for a quick overview of key features.  It's fun and fast.  <a id="aTour" target="_top" href="http://explorer.msn.com/tour/en/us/ms/V.2/tour-home.htm">Click here to start the tour!</a></p>
+
+<h2>Get MORE out of <span class="clsISP">MSN</span> Internet Access</h2>
+
+<p><span class="clsISP">MSN</span> offers a variety of options for Internet Access and different ways to access your <span class="clsISP">MSN</span> account.  <a id="aEssentials" href="http://go.msn.com/svcs/0/9.asp">Click here</a> to find out about additional service options (dial-up, or high-speed access via DSL or Satellite) and options for accessing your <span class="clsISP">MSN</span> account from different devices, such as computers, television, Internet appliances or Personal Data Assistants.</p>
+
+<h2>Tell Your Friends</h2>
+
+<p>If you like <span class="clsISP">MSN</span> Internet Access, tell your friends.  Send them your e-mail address and add them to your list of online contacts so you can more easily communicate.  Just click the Online Contacts icon, select "Add New OnlineContact" and follow the easy steps.</p>
+
+<p>Thanks again for choosing <span class="clsISP">MSN</span>!</p>
+
+<div id="divFooter">
+
+<p>Enjoy!</p>
+
+<p id="pTagLine">The MSN Staff</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-ID: box_tl.gif
+
+R0lGODlhDgAOAMQAAPz69JGszN/l6djg5/j38r3M3Pb28q7B16a71Ofr7NHa5LXG2rTF2dng55ew
+z+rt7dbe5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAAOAA4AAAUvICCOZGmeJjEUSOAGpcAsSmKc0NGgonA8PACBsQsOFkFRQZEEIBJNxy0J
+a1apyRAAOw==
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-ID: box_t.gif
+
+R0lGODdhAQAOAPcAAPz69JGszN/l6djg5/j38r3M3Pb28q7B16a71Ofr7NHa5LXG2rTF2dng55ew
+z+rt7dbe5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+AAAABAAAAAsCAAADAAAAdQIAABMAAAAyAAAAAAUAAFi9FQAkQBkACDwTAAEAAAAiAvt/NAAAADD1
+EgA1Wuh3CDwTALw/GQAkQBkAKPoSACz7EgAAAAAAAAAAAD9Z6HdXUuh3bPUSACgix3cAAAAAAAAA
+ALw/GQAAAAAAfPUSACQAAABxI/h3SA0TAAAAEwAkAAAA6IUXAFT1EgAAAgAADPcSAEWQ+3ewI/h3
+/////xz3EgAAofx3SA0TAAAAAAAAAAAAKPoSAHz1EgBc+hIAxPsSAL7c6XdAl+h3/////8z3EgBZ
+KYNppAHJAAEAAAAAAAAApAHJAEjapXcAAAAAljfadxB6FwC09hIATtqld1I42ncY1BcAIAJMAAAA
+AAADAAAAAAAAAAAAAAAAAAAAAAAAABgHAAAAAAAAAAAAAAAAAAAQehcA6KOld0gkGQAAAABA0iL4
+dwAAEwCqFbF3AAAAAAsAAABQ9BIA2PYSAEWQ+3eQ9hIA/////07apXfApqV3bAcTAAoAAAAKAAAA
+AQAAAOgvGADNq7rchPYSAPtj4XcAcbZ3kAI7AA8AAAAAAAAAgEmmdwAAAAD09hIA9PYSAPHbRgD0
+9hIAV/oSAAQAAAD09hIABAAAAH3NRgD09hIAV/oSAAQAAAABAAAAAAAAAAAAEwCkAckApAHJAAAA
+AAABAAAAAPoSACQAAAD09hIA2OVHAAEAAAAAAAAAlcmIaaQByQAuZ2lm6IUXACABAACAW6d3IAJM
+ACACTABY9xIARZD7d3Af+Hf/////aPcSAMwy6HcAABMACAAUABgBAAABAAAAAAAAAAAAAAAAAAAA
+AAAAAMTARAAYhhcADMYVAByGFwBc+hIA/////+iFFwAuwUQAGIYXACH5BAAAAAAALAAAAAABAA4A
+QAgLAAEIBBBgoEGBAQEAOw==
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-ID: box_tr.gif
+
+R0lGODlhDgAOAMQAAPz69JGszN/l6djg5/j38r3M3Pb28q7B16a71Ofr7NHa5LXG2rTF2dng55ew
+z+rt7dbe5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAAOAA4AAAUwICCOZGmeQeogxUCcopEoCyPAZHNA+Pgctx6gwXgJFwMhQFFQJhBKQ0AJ
+mCqtQmsIADs=
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-ID: box_l.gif
+
+R0lGODdhDgABAPcAAPz69JGszN/l6djg5/j38r3M3Pb28q7B16a71Ofr7NHa5LXG2rTF2dng55ew
+z+rt7dbe5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC
+AAAADQAAAP///wABAAAAAAAAAAQAAAALAgAAAwAAAHUCAACk9hIAAAAAAAAAXy2oAF8t4PQSADz2
+EgDM9RIAAAAAACD1EgB+L/h3AABfLQEAAAACAAAArPUSAKgAXy0AEF8t2CNfLQEAAAC8aPh3CQQA
+AAAQXy0AAAAAbPUSACQAAABxI/h3SA0TAAAAEwAkAAAAAAAAAET1EgAAAgAA/PYSAEWQ+3ewI/h3
+/////wz3EgDgo/x396P8dwAAAAAAAAAAKPoSAAIAAADU9RIApPYSACx5AAAAAAAACQQAABgVXy0J
+BAAAeAETABCdFwCgmQEA2CNfLQAAAAABAAAAzPUSAAAAAAA49RIAPPYSAAAAAABFkPt3oJkBAP//
+//8AEF8tjPUSALD/EgAQnRcAeAETABCdFwB4ARMACJ0XAHlr+HcAAF8tsDBfLTj2EgAAAAAAt1Do
+dwAAXy2wMF8tOPYSAAAAAACk9hIALHkAAAAAAACwMF8tEAAAAAkAAACo9hIA/gAAAGz2EgCIZeF3
+aFtIAP4AAACE9hIA7m5gLRIAAAAAAAAA/gAAAAAAAACY9hIADmnhdwAAAADubmAtCQAAAKj2EgAJ
+AAAAAAAAAHZbSADK0EcA1mYXAGhmFwCrqUIAAABfLe5uYC1oW0gA/wAAAAAAEwB4AgAA6IUXAOCF
+FwBoARMAAPcSACQAAAAseQAAAGYXAAAAAAAAhxcAwJoXAHgBEwDghRcA6IUXACABAAABAAAAIAJM
+ACACTABI9xIARZD7d3Af+Hf/////WPcSAMwy6HcAABMACAAUABgBAABoZhcAAAAAAAAAAAAAAAAA
+AAAAAMTARAAYhhcADMYVAByGFwBc+hIA/////+iFFwAuwUQAGIYXACH5BAAAAAAALAAAAAAOAAEA
+QAgLAAEACCCwoEGBAQEAOw==
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-ID: box_r.gif
+
+R0lGODdhDgABAPcAAPz69JGszN/l6djg5/j38r3M3Pb28q7B16a71Ofr7NHa5LXG2rTF2dng55ew
+z+rt7dbe5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+AAAABAAAAAsCAAADAAAAdQIAABMAAAAyAAAAAAUAAFi9FQAkQBkACDwTAAEAAAAiAvt/NAAAADD1
+EgA1Wuh3CDwTALw/GQAkQBkAKPoSACz7EgAAAAAAAAAAAD9Z6HdXUuh3bPUSACgix3cAAAAAAAAA
+ALw/GQAAAAAAfPUSACQAAABxI/h3SA0TAAAAEwAkAAAA6IUXAFT1EgAAAgAADPcSAEWQ+3ewI/h3
+/////xz3EgAAofx3SA0TAAAAAAAAAAAAKPoSAHz1EgBc+hIAxPsSAL7c6XdAl+h3/////8z3EgBZ
+KYNppAHJAAEAAAAAAAAApAHJAEjapXcAAAAAljfadxB6FwC09hIATtqld1I42ncY1BcAIAJMAAAA
+AAADAAAAAAAAAAAAAAAAAAAAAAAAABgHAAAAAAAAAAAAAAAAAAAQehcA6KOld0gkGQAAAABA0iL4
+dwAAEwCqFbF3AAAAAAsAAABQ9BIA2PYSAEWQ+3eQ9hIA/////07apXfApqV3bAcTAAoAAAAKAAAA
+AQAAAOgvGADNq7rchPYSAPtj4XcAcbZ3kAI7AA8AAAAAAAAAgEmmdwAAAAD09hIA9PYSAPHbRgD0
+9hIAV/oSAAQAAAD09hIABAAAAH3NRgD09hIAV/oSAAQAAAABAAAAAAAAAAAAEwCkAckApAHJAAAA
+AAABAAAAAPoSACQAAAD09hIA2OVHAAEAAAAAAAAAlcmIaaQByQAuZ2lm6IUXACABAACAW6d3IAJM
+ACACTABY9xIARZD7d3Af+Hf/////aPcSAMwy6HcAABMACAAUABgBAAABAAAAAAAAAAAAAAAAAAAA
+AAAAAMTARAAYhhcADMYVAByGFwBc+hIA/////+iFFwAuwUQAGIYXACH5BAAAAAAALAAAAAAOAAEA
+QAgLAAEIHEgQQACBAQEAOw==
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-ID: box_bl.gif
+
+R0lGODlhDgAOAMQAAPz69JGszN/l6djg5/j38r3M3Pb28q7B16a71Ofr7NHa5LXG2rTF2dng55ew
+z+rt7dbe5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAAAOAA4AAAUxIAAEYmma5KmOq+oYrYkkcVkotTgsOUAwjZ7g8OhBDsGcgLFQJGAtwqCA
+CFhTvSwgBAA7
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-ID: box_b.gif
+
+R0lGODdhAQAOAPcAAPz69JGszN/l6djg5/j38r3M3Pb28q7B16a71Ofr7NHa5LXG2rTF2dng55ew
+z+rt7dbe5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC
+AAAADQAAAP///wABAAAAAAAAAAQAAAALAgAAAwAAAHUCAACk9hIAAAAAAAAAXy2oAF8t4PQSADz2
+EgDM9RIAAAAAACD1EgB+L/h3AABfLQEAAAACAAAArPUSAKgAXy0AEF8t2CNfLQEAAAC8aPh3CQQA
+AAAQXy0AAAAAbPUSACQAAABxI/h3SA0TAAAAEwAkAAAAAAAAAET1EgAAAgAA/PYSAEWQ+3ewI/h3
+/////wz3EgDgo/x396P8dwAAAAAAAAAAKPoSAAIAAADU9RIApPYSACx5AAAAAAAACQQAABgVXy0J
+BAAAeAETABCdFwCgmQEA2CNfLQAAAAABAAAAzPUSAAAAAAA49RIAPPYSAAAAAABFkPt3oJkBAP//
+//8AEF8tjPUSALD/EgAQnRcAeAETABCdFwB4ARMACJ0XAHlr+HcAAF8tsDBfLTj2EgAAAAAAt1Do
+dwAAXy2wMF8tOPYSAAAAAACk9hIALHkAAAAAAACwMF8tEAAAAAkAAACo9hIA/gAAAGz2EgCIZeF3
+aFtIAP4AAACE9hIA7m5gLRIAAAAAAAAA/gAAAAAAAACY9hIADmnhdwAAAADubmAtCQAAAKj2EgAJ
+AAAAAAAAAHZbSADK0EcA1mYXAGhmFwCrqUIAAABfLe5uYC1oW0gA/wAAAAAAEwB4AgAA6IUXAOCF
+FwBoARMAAPcSACQAAAAseQAAAGYXAAAAAAAAhxcAwJoXAHgBEwDghRcA6IUXACABAAABAAAAIAJM
+ACACTABI9xIARZD7d3Af+Hf/////WPcSAMwy6HcAABMACAAUABgBAABoZhcAAAAAAAAAAAAAAAAA
+AAAAAMTARAAYhhcADMYVAByGFwBc+hIA/////+iFFwAuwUQAGIYXACH5BAAAAAAALAAAAAABAA4A
+QAgLAAEIHEhQYAAAAQEAOw==
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-ID: box_br.gif
+
+R0lGODdhDgAOAPcAAPz69JGszN/l6djg5/j38r3M3Pb28q7B16a71Ofr7NHa5LXG2rTF2dng55ew
+z+rt7dbe5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIC+38B
+AAAA7PQSADVa6HcIPBMA/kwaAABNGgAeKxkAPisZAAAAAACk9hIAAAAAAAAAXy2oAF8t4PQSADz2
+EgDM9RIAAAAAACD1EgB+L/h3AABfLQEAAAACAAAArPUSAKgAXy0AEF8t2CNfLQEAAAC8aPh3CQQA
+AAAQXy0AAAAAbPUSACQAAABxI/h3SA0TAAAAEwAkAAAA6IUXAET1EgAAAgAA/PYSAEWQ+3ewI/h3
+/////wz3EgAAofx3SA0TAAAAAAAAAAAAKPoSAAIAAADU9RIApPYSACx5AAAAAAAACQQAABgVXy0J
+BAAAAAAAALAwXy2gmQEA2CNfLQAAAAABAAAAzPUSAAAAAAA49RIAPPYSAAAAAABFkPt3oJkBAP//
+//8AEF8tjPUSALD/EgBE9hIARZD7d1hr+Hf/////VPYSAHlr+HcAAF8tsDBfLTj2EgAAAAAAt1Do
+dwAAXy2wMF8tOPYSAAAAAACk9hIALHkAAAAAAACwMF8tEAAAAAkAAACo9hIA/gAAAGz2EgCIZeF3
+aFtIAP4AAACE9hIA7m5gLRIAAAAAAAAA/gAAAAAAAACY9hIADmnhdwAAAADubmAtCQAAAKj2EgAJ
+AAAAAAAAAHZbSADK0EcA1mYXAGhmFwCrqUIAAABfLe5uYC1oW0gA/wAAAAAAEwAseQAAaFtIAP8A
+AADWZhcAAPcSACQAAAAseQAAaGYXAAAAAABI+xIAB5Thd24AAAAUAAAA6IUXACABAAAqLmdpIAJM
+ACACTABI9xIARZD7d3Af+Hf/////WPcSAMwy6HcAABMACAAUABgBAABoZhcAAAAAAAAAAAAAAAAA
+AAAAAMTARAAYhhcADMYVAByGFwBc+hIA/////+iFFwAuwUQAGIYXACH5BAAAAAAALAAAAAAOAA4A
+QAhEAAEIHEgQQICCBR8cEICwYQIEDSNKHHhwIoAFAwoaSKBgAQOGFglWnGhgpEQFBSw2YEBAYoMD
+EEQGCOAAQYEBLUM2DAgAOw==
+
+------=_NextPart_000_002E_01C091F4.83B6B1D0--

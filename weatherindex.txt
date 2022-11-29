@@ -1,0 +1,10 @@
+uB = sun with clouds
+uU = Sun
+u = clouds with wind (not sure)
+uM = clouds with Snow
+uA = sun with more clouds
+uC = Clouds
+uD = mist
+uX = freezing temperature
+UW = Rainy
+UT = Thunder

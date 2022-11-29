@@ -1,0 +1,73 @@
+﻿<!-- LOCAPPLY - this file has been localized for LocApply -->
+<HTML>
+<HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=UTF-8"/>
+<TITLE>MSN Explorer E-mail</TITLE>
+<META NAME="DateCreated" CONTENT="06/11/2000">
+<META NAME="DateUpdated" CONTENT="02/26/2001">
+</HEAD>
+<BODY>
+<OBJECT CLASSID="clsid:5E05D214-DD15-47cd-B5BC-65FAC825D3D0" ID="msnbf" HEIGHT="0" WIDTH="0" STYLE="display:none;"></OBJECT>
+<SPAN ID="MailStore" STYLE="behavior:url(#msnbf#mailstore);"></SPAN>
+<SCRIPT LANGUAGE="JScript">
+	function OpenSpecialFolder(iEnum)
+	{
+		var sFID = MailStore.GetSpecialFolderId(iEnum);
+		window.location.replace('msglist.htm?FID=' + sFID);
+	}
+	var sKeyword = self.location.search.substring(1).toUpperCase();
+	var sReplace = '';
+	switch (sKeyword)
+	{
+		case 'FOLDERS': 
+			sReplace = 'folderlist.htm';
+			break;
+		case 'ADDRESSBOOK':
+			sReplace = 'ab.htm';
+			break;
+		case 'COMPOSE':
+			sReplace = 'compose.htm?mailto:';
+			break;
+		case 'OPTIONS':
+			sReplace =  'options.htm';
+			break;
+		case 'BULKMAIL':
+			sReplace = 'msn://@ui.mar@/settings/mail-inboxprotect.htm';
+			break;
+		case 'WC':
+			sReplace = MailStore.GetFirstMailUrl();
+			break;
+	}
+	if ('' != sReplace)
+	{
+		
+		window.location.replace(sReplace);
+	}
+	else
+	{
+		var iFolder = 0;
+		switch (sKeyword)
+		{
+			case 'SENT':
+				iFolder = 1;
+				break;
+			case 'DRAFTS':
+				iFolder = 2;
+				break;
+			case 'TRASH':
+				iFolder = 3;
+				break;
+			case 'ARCHIVE':
+				iFolder = 7;
+				break;
+			case 'LOCALTRASH':
+				iFolder = 8;
+				break;
+			case 'LOCALSENT':
+				iFolder = 9;
+				break;
+		}
+		OpenSpecialFolder(iFolder);
+	}
+</SCRIPT>
+</BODY>
+</HTML>

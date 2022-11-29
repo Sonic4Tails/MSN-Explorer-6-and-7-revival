@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProfileResponse Success="true">
+<ClientInfo name="MSN6" version="1.35"></ClientInfo><User><SignInName>name@domain.com</SignInName><Password>f</Password></User>
+</ProfileResponse>
