@@ -16,6 +16,7 @@
 6. go to the the htdocs directory of xampp  and then add the files in the zip folder that is attached
 7. start apache in xampp
 8. go to 127.0.0.1 and if you see a list of folders and files it works
+
 ---- windows 2000, me, whistler, xp, etc (if ran above xp some unexpected issues can occur) -----
 9. start windows xp
 10. configure your proxy in the internet options in internet explorer in windows xp to your local ip 192.168.xxx.xxx and then the port you set in fiddler make sure "allow remote connections" is enabled
