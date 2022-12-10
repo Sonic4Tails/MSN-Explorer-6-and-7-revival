@@ -14,10 +14,11 @@ function getUserIpAddr(){
 ?>
 <?php
 $apiKey = "c0c4a4b4047b97ebc5948ac9c48c0559"; //unless you have an premium api key dont replace this
-$query = @unserialize (file_get_contents('http://ip-api.com/php/'.getUserIpAddr()));
-if ($query && $query['status'] == 'success') {
-$cityId = $query['city']  . ',' . ' ' . $query['countryCode'];
-}
+//$query = @unserialize (file_get_contents('http://ip-api.com/php/'.getUserIpAddr()));
+//if ($query && $query['status'] == 'success') {
+//$cityId = $query['city']  . ',' . ' ' . $query['countryCode'];
+//}
+$cityId = "{enter your city here or delete this line of code and uncomment the above code if accessing the server from an external location outside of your local network}";
 $googleApiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" . $cityId . "&lang=en&units=metric&APPID=" . $apiKey;
 
 $ch = curl_init();
