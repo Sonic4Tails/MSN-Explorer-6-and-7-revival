@@ -13,12 +13,11 @@ function getUserIpAddr(){
 }
 ?>
 <?php
-$apiKey = "(your api key here)";
-//$query = @unserialize (file_get_contents('http://ip-api.com/php/'.getUserIpAddr()));
-//if ($query && $query['status'] == 'success') {
-//$cityId = $query['city']  . ',' . ' ' . $query['countryCode'];
-//}
-$cityId = "(enter your city here or if accessed outside of the local network uncomment the line above and delete this line)";
+$apiKey = "c0c4a4b4047b97ebc5948ac9c48c0559"; //unless you have an premium api key dont replace this
+$query = @unserialize (file_get_contents('http://ip-api.com/php/'.getUserIpAddr()));
+if ($query && $query['status'] == 'success') {
+$cityId = $query['city']  . ',' . ' ' . $query['countryCode'];
+}
 $googleApiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" . $cityId . "&lang=en&units=metric&APPID=" . $apiKey;
 
 $ch = curl_init();
@@ -79,10 +78,7 @@ echo $html;
 </cm>
 <cm dispName="Local Weather" id="326129" class="weather" client="msn6" name="weather" RefreshRate="7200000">
 <city><?php echo $cityId ?></city>
-<dayofweek><?php 
- $date = new DateTime();
- echo $date->format('d-m-Y');
-?></dayofweek>
+<dayofweek><?php echo date('l'); ?></dayofweek>
 <image imgType="forecast"><?php
 if ($data->weather[0]->icon == '50d') {
     echo "uD";
@@ -126,46 +122,73 @@ if ($data->weather[0]->icon == '50d') {
 ?></image>
 <condition><?php echo ucwords($data->weather[0]->description); ?></condition>
 <temp>
-<high><?php echo $data->main->temp_max; ?></high>
-<low><?php echo $data->main->temp_min; ?></low>
+<high><?php echo (ceil ($value['temp']['max'])); ?></high>
+<low><?php echo (ceil ($value['temp']['min'])); ?></low>
 </temp>
 <forecasts>
-<!--<forecast>
-<dayofweek><?php 
-$tomorrow = new DateTime('tomorrow');
-echo $tomorrow->format("d-m-Y");
-?></dayofweek>
-<image imgType="forecast">UT</image>
-<condition>Unavailable</condition>
-<temp>
-<high>N/A</high>
-<low>N/A</low>
-</temp>
-</forecast>
-<forecast>
-<dayofweek><?php 
-$dayAfterTomorrow = (new \DateTime())->add(new \DateInterval('P2D'));
-echo $dayAfterTomorrow->format('d-m-Y');
-?></dayofweek>
-<image imgType="forecast">UT</image>
-<condition>Unavailable</condition>
-<temp>
-<high>N/A</high>
-<low>N/A</low>
-</temp>
-</forecast>
-<forecast>
-<dayofweek><?php 
-$dayAfterTomorrow = (new \DateTime())->add(new \DateInterval('P3D'));
-echo $dayAfterTomorrow->format('d-m-Y');
-?></dayofweek>
-<image imgType="forecast">UT</image>
-<condition>Unavailable</condition>
-<temp>
-<high>N/A</high>
-<low>N/A</low>
-</temp>
-</forecast>-->
+<?php
+    $city    = $cityId;
+    $url     = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=' . $city . '&units=metric&cnt=4&lang=en&appid=' . $apiKey;
+    $json    = file_get_contents( $url );
+    $data    = json_decode( $json, true );
+     $data['city']['name'];
+    // var_dump($data );
+    
+    foreach (array_slice( $data['list'] ,1) as $day => $value ) {
+        echo '<forecast>';
+        echo '<dayofweek>';
+        echo date('l', strtotime('+1 days +' . $day . ' days'));
+        echo '</dayofweek>';
+        echo '<image imgType="forecast">';
+if ($value['weather'][0]['icon'] == '50d') {
+    echo "uD";
+} elseif ($value['weather'][0]['icon'] == '02d') {
+    echo "uB";
+} elseif ($value['weather'][0]['icon'] == '03d') {
+    echo "uC";
+} elseif ($value['weather'][0]['icon'] == '04d') {
+    echo "uC";
+} elseif ($value['weather'][0]['icon'] == '09d') {
+    echo "uW";
+} elseif ($value['weather'][0]['icon'] == '10d') {
+    echo "uW";
+} elseif ($value['weather'][0]['icon'] == '01d') {
+    echo "uU";
+} elseif ($value['weather'][0]['icon'] == '02n') {
+    echo "uB";
+} elseif ($value['weather'][0]['icon'] == '03n') {
+    echo "uC";
+} elseif ($value['weather'][0]['icon'] == '04n') {
+    echo "uC";
+} elseif ($value['weather'][0]['icon'] == '09n') {
+    echo "uW";
+} elseif ($value['weather'][0]['icon'] == '10n') {
+    echo "uW";
+} elseif ($value['weather'][0]['icon'] == '01n') {
+    echo "uU";
+} elseif ($value['weather'][0]['icon'] == '50n') {
+    echo "uD";
+} elseif ($value['weather'][0]['icon'] == '11d') {
+    echo "uT";
+} elseif ($value['weather'][0]['icon'] == '11n') {
+    echo "uT";
+} elseif ($value['weather'][0]['icon'] == '13d') {
+    echo "uM";
+} elseif ($value['weather'][0]['icon'] == '13n') {
+    echo "uM";
+} else {
+    echo "UT";
+}
+        echo '</image>';
+        echo '<condition>' . $value['weather'][0]['description'] . '</condition>';
+        echo '<temp>';
+        echo '<high>' . (ceil ($value['temp']['max'])) . '</high>';
+        echo '<low>' . (ceil ($value['temp']['min'])) . '</low>';
+        echo '</temp>';
+        echo '</forecast>';
+    
+    }
+?>
 </forecasts>
 <links>
 <link type="weather">
