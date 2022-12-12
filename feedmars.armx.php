@@ -18,7 +18,7 @@ $apiKey = "c0c4a4b4047b97ebc5948ac9c48c0559"; //unless you have an premium api k
 //if ($query && $query['status'] == 'success') {
 //$cityId = $query['city']  . ',' . ' ' . $query['countryCode'];
 //}
-$cityId = "{enter your city here or delete this line of code and uncomment the above code if accessing the server from an external location outside of your local network}";
+$cityId = "Olland, NL";
 $googleApiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" . $cityId . "&lang=en&units=metric&APPID=" . $apiKey;
 
 $ch = curl_init();
@@ -128,11 +128,11 @@ if ($data->weather[0]->icon == '50d') {
 </temp>
 <forecasts>
 <?php
+    $cnt = 4;
     $city    = $cityId;
-    $url     = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=' . $city . '&units=metric&cnt=4&lang=en&appid=' . $apiKey;
+    $url     = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=' . $city . '&units=metric&cnt=' . $cnt . '&lang=en&appid=' . $apiKey;
     $json    = file_get_contents( $url );
     $data    = json_decode( $json, true );
-     $data['city']['name'];
     // var_dump($data );
     
     foreach (array_slice( $data['list'] ,1) as $day => $value ) {
@@ -187,8 +187,7 @@ if ($value['weather'][0]['icon'] == '50d') {
         echo '<low>' . (ceil ($value['temp']['min'])) . '</low>';
         echo '</temp>';
         echo '</forecast>';
-    
-    }
+  }
 ?>
 </forecasts>
 <links>

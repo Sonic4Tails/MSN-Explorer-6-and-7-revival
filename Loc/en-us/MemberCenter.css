@@ -1,0 +1,118 @@
+body { font-family:tahoma,sans-serif; color: black; }
+
+th { text-align: left; font-size: 12px; color: 1A60A8; margin-top: 5px; margin-bottom: 5px; font-weight: bold; }
+a {text-decoration:none}
+a:visited {text-decoration:none}
+a:visited:hover {text-decoration:underline}
+
+.big7 {font-size:11px; color:white ; font-weight: bold; }
+.big7 a {color:white}
+
+.search {font-size:11px;color:white;}
+
+.sf {color:white; font-size:11px;}
+.sf a{color:white}
+.sfl {font-size:24px;border-bottom: 1px solid #3E9DDA;white-space:nowrap}
+.sfm {border-bottom: 1px solid #83C5EE}
+.sfr {font-size:1px}
+.sfi {background:#2A79BA;background-image:url(https://web.archive.org/web/20040804144237im_/http://sc.msn.com/global/c/sf/sfg_mb.gif);border-bottom:1px solid #83C5EE;border-top:1px solid #3E9DDA;border-right:1px solid #004E82;padding:0px 0px 9px 0px;}
+.sflb {font-size:1px;background:#2A79BA;border-bottom: 1px solid #83C5EE}
+.sfinput {font-size:11px}
+
+.big1 {font-size:11px;color: #DEEEF8; font-weight: bold; }
+.big1 a {color:#DEEEF8}
+
+.terms {font-size:10px; color:white}
+.terms td {border-top-width:1px;border-top-color:#5F90C2;border-top-style:solid}
+.terms a {color:white}
+
+.mcsb_bold_text { font-weight: bold; font-size:70%;}
+.mcsb_text {font-size:70%;}
+.mcsb_link {font-size:70%;}
+.mcsb_link a {color:black;}
+
+.mcqt_bold_text { font-size:70%; font-weight: bold;}
+.mcqt_text { font-size:70%;}
+
+.mcp_big_bold_text {font-size:110%; font-weight: bold; }
+.mcp_big_text {font-size:110%;}
+.mcp_text {font-size:70%;}
+.mcp_small_text {font-size:50%;color:#1A60A8;}
+.mcp_bold_text { font-size:70%; font-weight: bold; }
+
+.mcpm_big_bold_text { font-size:12px; color:white; font-weight: bold; }
+.mcpm_big_text { font-size:11px; color:white; font-weight: bold; }
+.mcpm_text { font-size:11px; color:white; }
+
+.mcpm_highlight_big_shorttext { font-size: 12px; color: #004E82; font-weight: bold; }
+.mcpm_highlight_big_longtext  { font-size: 11px; color: #3E3E3E;  }
+.mcpm_highlight_normal_shorttext { font-size: 11px; color: #004E82; font-weight: bold; }
+.mcpm_highlight_normal_longtext  { font-size: 11px; color: #3E3E3E;  }
+.mcpm_quicklinks_header_text { font-size: 12px; color: #D64300;  font-weight: bold;}
+.mcpm_quicklinks_text { font-size: 12px; color: #3E3E3E; text-decoration: none; }
+.mcpm_quicklinks_mouseover_text { font-size: 12px; color: #004E82; text-decoration: underline; margin-left: 5px;}
+.mcpm_extras_linktext { font-size: 11px; color: #4D5ED6; font-weight: bold; }
+.mcpm_extras_text { font-size: 11px; color: #3E3E3E; }
+.mcpm_videos_linktext { height: 18px; padding-left: 5px; font-size: 12px; color: #3E3E3E; text-decoration: none; }
+.mcpm_videos_linktext a:hover  { height: 18px; padding-left: 5px; font-size: 12px; color: #004E82; text-decoration: underline; }
+
+.mcfl_big_bold_text { padding-left: 10px; font-size: 14px; color: white; font-weight: bold; }
+.mcfl_big_text { border-bottom: groove white 1px; background-color: #3C78B5; font-size: 11px; color: white; height: 20px; font-weight: bold; }
+.mcfl_mouseover_big_text { cursor: hand; border-bottom: groove white 1px; background-color: #91B3C9; font-size: 11px; color: white; height: 20px; font-weight: bold; }
+.mcfl_text { background-color: #3C78B5; font-size: 11px; color: white; padding-left: 10px; height: 20px; }
+.mcfl_mouseover_text { cursor: hand; background-color: #91B3C9; font-size: 11px; color: white; padding-left: 10px; height: 20px; }
+
+.mcfl_link_big_bold_text { font-size: 14px; color: #F5802D; font-weight: bold; }
+.mcfl_link_big_text {font-size: 12px; color: #003BFB; font-weight: bold; }
+.mcfl_link_text { font-size: 11px; color: #3E3E3E; height: 20px; }
+
+.mcgh_text { border-bottom: solid white 1px; background-color: #3C78B5; font-size: 11px; color: white; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; height: 20px; }
+.mcgh_mouseover_text { border-bottom: solid white 1px; cursor: hand; background-color: #91B3C9; font-size: 11px; color: white; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; height: 20px; }
+
+.UALink {}
+.UALIST {font-size:70%;}
+
+.UATITLE {font-size: 18px; color: F5802D; font-weight: bold;}
+.UAHEADING { font-size: 12px; color: 1A60A8; margin-top: 5px; margin-bottom: 5px; font-weight: bold; }
+.UASUBHEADING {font-size:70%; font-weight: bold; }
+
+.UAINSTRUCTIONS { font-size: 12px; }
+.UAINSTRUCTION_INTRO {}
+.UAINSTRUCTION_LIST {}
+
+.UAMOREINFO {font-size:70%;}
+.UATIP {margin-bottom:0em;padding-bottom:0em;}
+.UANOTE {margin-bottom:0em;padding-bottom:0em;}
+
+.UALINK {font-size:100%;}
+
+.UATASKS {margin-bottom: 1.1em;}
+.UATASKCELL {margin:0 px; padding:0 px; font-size: 12px;}
+
+
+.STARTHEADING {{font-size:18pt;}
+.STARTHEADLINE {font-size:110%; font-weight: bold; }
+.STARTTEXT {font-size:70%;}
+
+
+/*
+     FILE ARCHIVED ON 14:42:37 Aug 04, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:24:45 Dec 11, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 88.189
+  exclusion.robots: 0.348
+  exclusion.robots.policy: 0.333
+  cdx.remote: 0.122
+  esindex: 0.014
+  LoadShardBlock: 46.222 (3)
+  PetaboxLoader3.datanode: 65.307 (4)
+  CDXLines.iter: 19.274 (3)
+  load_resource: 116.103
+  PetaboxLoader3.resolve: 71.59
+*/
