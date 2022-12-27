@@ -18,7 +18,7 @@ $apiKey = "c0c4a4b4047b97ebc5948ac9c48c0559"; //unless you have an premium api k
 //if ($query && $query['status'] == 'success') {
 //$cityId = $query['city']  . ',' . ' ' . $query['countryCode'];
 //}
-$cityId = "Olland, NL";
+$cityId = "Private";
 $googleApiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" . $cityId . "&lang=en&units=metric&APPID=" . $apiKey;
 
 $ch = curl_init();
